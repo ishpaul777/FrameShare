@@ -1,9 +1,6 @@
 "use client";
-import Image from "next/image";
-import { useOthers } from "@liveblocks/react/suspense";
+import Live from "@/components/Live";
 
 export default function FrameShare() {
-  const others = useOthers();
-  const userCount = others.length;
-  return <div>There are {userCount} other user(s) online</div>;
+  return <Live />;
 }

@@ -1,5 +1,5 @@
 import { Room } from "./Room";
-import FrameShare  from "./FrameShare";
+import FrameShare from "./FrameShare";
 
 export default function Page() {
   return (
